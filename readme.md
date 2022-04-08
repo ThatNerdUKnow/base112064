@@ -9,7 +9,7 @@ You absolutely should not use this library, or do, I'm not a cop
 
 
 ## Usage
-encode your object into a string then pass it as an argument to the default export from this library
+serialize your object into a string (or buffer) then pass it as an argument to the default export from this library
 ```js
 import encode from 'base112064'
 import {promises as fs} from 'promises'
