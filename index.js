@@ -1,5 +1,10 @@
-export default function base112064(content)
+/**
+ * 
+ * @param {string} data 
+ * @returns {string}
+ */
+export default function base112064(data)
 {
-    let buffer = Buffer.from(content)
+    let buffer = Buffer.from(data)
     return buffer.toString('ascii');
 }
